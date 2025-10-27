@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Navbar from "@/features/navbar/navbar";
+import Navbar from "@/features/Navbar/navbar";
 import { Sora } from 'next/font/google';
 import "./globals.css";
 

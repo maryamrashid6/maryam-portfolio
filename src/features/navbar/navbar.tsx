@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex flex-row justify-between py-5 shadow-2xl bg-white px-4 md:px-20">
+      <nav className="flex flex-row justify-between py-5 shadow-md bg-white px-4 md:px-20">
         {/* Logo div */}
         <div className="flex flex-row items-center gap-2">
           <Image src={Logo} alt="Logo" width={40} height={40} />

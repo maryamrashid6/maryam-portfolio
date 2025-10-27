@@ -20,19 +20,19 @@
   --font-size-h1: 48px;
   --line-height-h1: 56px;
 
-  --font-size-h2: 36px;
+  --font-size-h2: 26px;
   --line-height-h2: 44px;
 
-  --font-size-h3: 30px;
+  --font-size-h3: 20px;
   --line-height-h3: 38px;
 
-  --font-size-h4: 24px;
+  --font-size-h4: 16px;
   --line-height-h4: 30px;
 
-  --font-size-h5: 20px;
+  --font-size-h5: 14px;
   --line-height-h5: 24px;
 
-  --font-size-h6: 16px;
+  --font-size-h6: 10px;
   --line-height-h6: 22px;
 
   --font-size-p: 16px;
@@ -53,15 +53,15 @@ h1 {
   font-weight: var(--font-weight-regular);
 }
 
-h1.semibold {
+.semibold {
   font-weight: var(--font-weight-semi-bold);
 }
 
-h1.bold {
+.bold {
   font-weight: var(--font-weight-bold);
 }
 
-h1.extrabold {
+.extrabold {
   font-weight: var(--font-weight-extra-bold);
 }
 
@@ -72,35 +72,11 @@ h2 {
   font-weight: var(--font-weight-regular);
 }
 
-h2.semibold {
-  font-weight: var(--font-weight-semi-bold);
-}
-
-h2.bold {
-  font-weight: var(--font-weight-bold);
-}
-
-h2.extrabold {
-  font-weight: var(--font-weight-extra-bold);
-}
-
 h3 {
   font-family: var(--font-family-base);
   font-size: var(--font-size-h3);
   line-height: var(--line-height-h3);
   font-weight: var(--font-weight-regular);
-}
-
-h3.semibold {
-  font-weight: var(--font-weight-semi-bold);
-}
-
-h3.bold {
-  font-weight: var(--font-weight-bold);
-}
-
-h3.extrabold {
-  font-weight: var(--font-weight-extra-bold);
 }
 
 h4 {
@@ -110,18 +86,6 @@ h4 {
   font-weight: var(--font-weight-regular);
 }
 
-h4.semibold {
-  font-weight: var(--font-weight-semi-bold);
-}
-
-h4.bold {
-  font-weight: var(--font-weight-bold);
-}
-
-h4.extrabold {
-  font-weight: var(--font-weight-extra-bold);
-}
-
 h5 {
   font-family: var(--font-family-base);
   font-size: var(--font-size-h5);
@@ -129,35 +93,11 @@ h5 {
   font-weight: var(--font-weight-regular);
 }
 
-h5.semibold {
-  font-weight: var(--font-weight-semi-bold);
-}
-
-h5.bold {
-  font-weight: var(--font-weight-bold);
-}
-
-h5.extrabold {
-  font-weight: var(--font-weight-extra-bold);
-}
-
 h6 {
   font-family: var(--font-family-base);
   font-size: var(--font-size-h6);
   line-height: var(--line-height-h6);
   font-weight: var(--font-weight-regular);
-}
-
-h6.semibold {
-  font-weight: var(--font-weight-semi-bold);
-}
-
-h6.bold {
-  font-weight: var(--font-weight-bold);
-}
-
-h6.extrabold {
-  font-weight: var(--font-weight-extra-bold);
 }
 
 p {
