@@ -1,12 +1,13 @@
 import { GirlBanner, GitHubSVG, HeroImage, LinkedInSVG } from "./assets";
 
 import Image from "next/image";
+import Skills from "./Skills/skills";
 
 export default function HeroSection() {
   return (
-    <div className="m-auto md:p-10 p-2 flex flex-col gap-10">
+    <div className="m-auto md:p-10 p-2 flex flex-col gap-3">
       <div className="flex md:flex-row flex-col gap-10 items-center justify-center">
-        <div className="md:w-2/3 w-full flex flex-col gap-8">
+        <div className="md:w-2/3 w-full flex flex-col gap-6">
           <div>
             <h1 className="font-h1 ">
               Hello, I'm{" "}
@@ -35,6 +36,8 @@ export default function HeroSection() {
               seamless user experiences.
             </p>
           </div>
+
+          <Skills />
         </div>
 
         <div className="md:w-1/3 w-full">
@@ -42,23 +45,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="flex flex-row gap-4 justify-center md:justify-start">
-        <Image
-          src={GitHubSVG}
-          alt="GitHub"
-          width={50}
-          height={50}
-          className="hover:scale-110 transition-all duration-300"
-        />
-
-        <Image
-          src={LinkedInSVG}
-          alt="LinkedIn"
-          width={100}
-          height={100}
-          className="hover:scale-110 transition-all duration-300"
-        />
-      </div>
+     
     </div>
   );
 }
