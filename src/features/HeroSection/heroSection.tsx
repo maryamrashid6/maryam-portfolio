@@ -1,4 +1,4 @@
-import { GirlBanner, GitHubSVG, HeroImage, LinkedInSVG } from "./assets";
+import { HeroImage } from "./assets";
 
 import Image from "next/image";
 import Skills from "./Skills/skills";
@@ -44,8 +44,6 @@ export default function HeroSection() {
           <Image src={HeroImage} alt="Hero Image" className="m-auto" />
         </div>
       </div>
-
-     
     </div>
   );
 }
