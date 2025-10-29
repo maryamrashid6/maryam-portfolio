@@ -11,15 +11,16 @@ export default function HeroSection() {
           <div>
             <h1 className="font-h1 ">
               Hello, I'm{" "}
-              <span className="text-primary extrabold">Maryam Rashid</span>
+              <span className="text-primary extrabold">Maryam Rashid.</span>
             </h1>
 
             <h1 className="font-h1 ">
-              <span className="text-primary semibold">Frontend</span> Developer
+              <span className="text-primary semibold">Frontend</span> Developer,
             </h1>
 
             <h1 className="font-h1 ">
-              Based In <span className="text-primary semibold">Pakistan</span>
+              Creating <span className="text-primary semibold">Seamless</span>{" "}
+              User Experiences
             </h1>
           </div>
 
