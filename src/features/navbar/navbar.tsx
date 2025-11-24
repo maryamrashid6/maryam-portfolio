@@ -20,16 +20,23 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <div className="hidden md:flex flex-row items-center gap-6">
-          <Link href="/about" className="hover:text-primary">About Me</Link>
-          <Link href="/" className="hover:text-primary">Skills</Link>
-          <Link href="/contact" className="hover:text-primary">Experience</Link>
+          <Link href="#about-me" className="hover:text-primary">About Me</Link>
+          <Link href="#experience" className="hover:text-primary">Experience</Link>
         </div>
 
         {/* Desktop Resume Button */}
         <div className="hidden md:block">
-          <Button className="bg-primary text-white hover:bg-primary/90 p-4">
-            <span>Resume</span>
-            <Image src={Download} alt="Download" width={15} height={15} />
+          <Button 
+            asChild
+            className="bg-primary text-white hover:bg-primary/90 p-4"
+          >
+            <a 
+              href={encodeURI("/Maryam Rashid.pdf")}
+              download="Maryam Rashid.pdf"
+            >
+              <span>Resume</span>
+              <Image src={Download} alt="Download" width={15} height={15} />
+            </a>
           </Button>
         </div>
 
@@ -47,12 +54,19 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg px-4 py-4">
           <div className="flex flex-col space-y-4">
-            <Link href="/about" className="hover:text-primary py-2">About Me</Link>
-            <Link href="/" className="hover:text-primary py-2">Skills</Link>
-            <Link href="/contact" className="hover:text-primary py-2">Experience</Link>
-            <Button className="bg-primary text-white hover:bg-primary/90 p-4 w-fit">
-              <span>Resume</span>
-              <Image src={Download} alt="Download" width={15} height={15} />
+            <Link href="#about-me" className="hover:text-primary py-2">About Me</Link>
+            <Link href="#experience" className="hover:text-primary py-2">Experience</Link>
+            <Button 
+              asChild
+              className="bg-primary text-white hover:bg-primary/90 p-4 w-fit"
+            >
+              <a 
+                href={encodeURI("/Maryam Rashid.pdf")}
+                download="Maryam Rashid.pdf"
+              >
+                <span>Resume</span>
+                <Image src={Download} alt="Download" width={15} height={15} />
+              </a>
             </Button>
           </div>
         </div>

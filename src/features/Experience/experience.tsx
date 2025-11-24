@@ -7,7 +7,7 @@ export default function Experience() {
       company: "Beyond One",
       title: "Software Engineer-II",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "Migrated Virgin Connect Roam's Flutter web app to Next.js to (TypeScript, SSR, SSG) to improve performance and SEO. Implemented multilingual support with Lokalise. Styled with Shadcn UI and Tailwind. Implemented APIs and generated types using Orval. Implemented e2e testing with Playwright.",
       logo: BeyondOneLogo,
       startDate: "May 2025",
       endDate: "Present",
@@ -16,7 +16,7 @@ export default function Experience() {
       company: "Folio3",
       title: "Software Engineer",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "Built and Maintained React.js Applications with responsive and cross-browser designs. Managed states using Redux toolkit. Developed Web APIs using ASP.NET Core. Contributed in AgriTech solutions for US agriculture clients.",
       logo: Folio3Logo,
       startDate: "Aug 2021",
       endDate: "May 2025",
@@ -25,14 +25,14 @@ export default function Experience() {
       company: "Zaytrics Solutions",
       title: "Junior Software Engineer",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "Developed front-end for a call center application using React.js and Material UI",
       logo: ZaytricsLogo,
       startDate: "May 2021",
       endDate: "Aug 2021",
     },
   ];
   return (
-    <div className="m-auto md:p-10 p-2 flex flex-col gap-3">
+    <div className="m-auto md:p-10 p-2 flex flex-col gap-3" id="experience">
       {experience.map((experience) => (
         <div
           key={experience.company}
