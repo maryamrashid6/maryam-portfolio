@@ -1,37 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maryam Rashid - Portfolio
 
-## Getting Started
+A modern, responsive personal portfolio website showcasing my work, experience, and skills as a Frontend Developer.
 
-First, run the development server:
+## 🚀 Features
+
+- **Hero Section** - Introduction with key skills and technologies
+- **Experience** - Professional work history and achievements
+- **About Me** - Personal story and background
+- **Skills Showcase** - Technologies and tools I work with
+- **Responsive Design** - Optimized for all devices
+- **Modern UI** - Built with Tailwind CSS and Radix UI components
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) 15.5.0 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **UI Components**: ShadCN
+- **Build Tool**: Turbopack
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd maryam-portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+pnpm install
+# or
+yarn install
+```
+
+## 🏃‍♂️ Getting Started
+
+Run the development server:
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
 # or
-bun dev
+yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The page auto-updates as you edit the files.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 Available Scripts
 
-## Learn More
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build the production application
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint to check code quality
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+maryam-portfolio/
+├── src/
+│   ├── app/              # Next.js app router pages
+│   ├── components/       # Reusable UI components
+│   ├── features/         # Feature-based components
+│   │   ├── AboutMe/      # About me section
+│   │   ├── Experience/   # Work experience section
+│   │   ├── Footer/       # Footer component
+│   │   ├── HeroSection/  # Hero section with skills
+│   │   ├── LandingPage/  # Main landing page
+│   │   └── Navbar/       # Navigation bar
+│   └── lib/              # Utility functions
+├── public/               # Static assets
+└── package.json          # Dependencies and scripts
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customization
 
-## Deploy on Vercel
+The portfolio is built with a modular structure, making it easy to customize:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Update personal information in the respective feature components
+- Modify styling in `globals.css` or component-level Tailwind classes
+- Add new sections by creating feature components in the `features/` directory
+- Update skills and experience in their respective component files
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Personal-Portfolio
+## 🚢 Deployment
+
+The easiest way to deploy this Next.js app is using [Vercel](https://vercel.com):
+
+1. Push your code to GitHub
+2. Import your repository on Vercel
+3. Vercel will automatically detect Next.js and configure the build settings
+4. Deploy!
+
+For more deployment options, check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+## 📝 License
+
+This project is private and personal.
+
+## 👤 Author
+
+**Maryam Rashid**
+- Frontend Developer with 5+ years of experience
+- Specialized in React, Next.js, and modern web technologies
+
+---
+
+Built with ❤️ using Next.js and TypeScript
