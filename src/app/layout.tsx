@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import Navbar from "@/features/navbar/navbar";
-import { Sora } from 'next/font/google';
+import Navbar from "@/features/Navbar/navbar";
+import { Sora } from "next/font/google";
 import "./globals.css";
 
+import Footer from "@/features/Footer/footer";
 const sora = Sora({
-  subsets: ['latin'],
-  weight: ['400', '600', '700', '800'],
-  variable: '--font-sora', // optional custom CSS var
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "800"],
+  variable: "--font-sora", // optional custom CSS var
 });
 
 export const metadata: Metadata = {
@@ -21,7 +22,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={sora.variable}>
-      <body className="font-sora"><Navbar/>{children}</body>
+      <body className="font-sora">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
