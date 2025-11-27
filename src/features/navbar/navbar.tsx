@@ -15,7 +15,7 @@ export default function Navbar() {
         {/* Logo div */}
         <div className="flex flex-row items-center gap-2">
           <Image src={Logo} alt="Logo" width={40} height={40} />
-          <h5 className="font-h5 semibold">Personal</h5>
+          <h5 className="font-h5 semibold">Portfolio</h5>
         </div>
 
         {/* Desktop Links */}
